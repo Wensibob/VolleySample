@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Volley实例</string>
+    <string name="string_request">String Request</string>
+    <string name="json_request">Json Request</string>
+    <string name="image_request">Image Request</string>
+    <string name="image_loader">Image Loader</string>
+    <string name="xml_request">XML Request</string>
+    <string name="gson_request">Gson Request</string>
+    <string name="error_message">网络不可访问</string>
+    <string name="test_button">测试</string>
+</resources>

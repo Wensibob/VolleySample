@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bob.volleysample.MainActivity">
+
+    <include layout="@layout/toolbar"/>
+
+    <Button
+        android:id="@+id/button1"
+        android:text="@string/string_request"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_below="@+id/toolbar"
+        android:layout_marginTop="50dp"
+        android:onClick="button1"
+        />
+    <Button
+        android:id="@+id/button2"
+        android:text="@string/json_request"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/button1"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:onClick="button2"
+        />
+    <Button
+        android:id="@+id/button3"
+        android:text="@string/image_request"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/button2"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:onClick="button3"
+        />
+    <Button
+        android:id="@+id/button4"
+        android:text="@string/image_loader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/button3"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:onClick="button4"
+        />
+    <Button
+        android:id="@+id/button5"
+        android:text="@string/xml_request"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/button4"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:onClick="button5"
+        />
+    <Button
+        android:id="@+id/button6"
+        android:text="@string/gson_request"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/button5"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:onClick="button6"
+        />
+
+</RelativeLayout>
